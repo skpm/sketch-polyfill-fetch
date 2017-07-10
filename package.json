@@ -1,5 +1,5 @@
 {
-  "name": "sketch-module-fetch-polyfill",
+  "name": "sketch-polyfill-fetch",
   "version": "0.1.4",
   "description": "A fetch polyfill for sketch",
   "main": "lib/index.js",
@@ -14,18 +14,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/skpm/sketch-module-fetch-polyfill.git"
+    "url": "git+https://github.com/skpm/sketch-polyfill-fetch.git"
   },
   "keywords": [
     "sketch",
-    "module",
     "fetch",
     "polyfill"
   ],
   "author": "Mathieu Dutour <mathieu@dutour.me> (http://mathieu.dutour.me/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/skpm/sketch-module-fetch-polyfill/issues"
+    "url": "https://github.com/skpm/sketch-polyfill-fetch/issues"
   },
-  "homepage": "https://github.com/skpm/sketch-module-fetch-polyfill#readme"
+  "homepage": "https://github.com/skpm/sketch-polyfill-fetch#readme"
 }

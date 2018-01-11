@@ -3,3 +3,5 @@ logs
 npm-debug.log
 node_modules
 .vscode
+package-lock.json
+test

@@ -12,11 +12,24 @@ npm i -S sketch-polyfill-fetch
 
 ## Usage
 
+Using skpm:
+```js
+export default () => {
+  fetch("https://google.com")
+    .then(response => response.text())
+    .then(text => console.log(text))
+    .catch(e => console.error(e))
+}
+```
+
+Without skpm:
 ```js
 const fetch = require('sketch-polyfill-fetch')
 
-fetch("https://google.com")
-  .then(response => response.text())
-  .then(text => console.log(text))
-  .catch(e => console.error(e))
+var onRun = function () {
+  fetch("https://google.com")
+    .then(response => response.text())
+    .then(text => console.log(text))
+    .catch(e => console.error(e))
+}
 ```

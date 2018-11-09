@@ -13,6 +13,7 @@ npm i -S sketch-polyfill-fetch
 ## Usage
 
 Using skpm:
+
 ```js
 export default () => {
   fetch("https://google.com")
@@ -23,6 +24,7 @@ export default () => {
 ```
 
 Without skpm:
+
 ```js
 const fetch = require('sketch-polyfill-fetch')
 

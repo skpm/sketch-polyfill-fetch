@@ -1,16 +1,17 @@
 {
   "name": "sketch-polyfill-fetch",
-  "version": "0.4.1",
+  "version": "0.4.3",
   "description": "A fetch polyfill for sketch",
   "main": "lib/index.js",
   "dependencies": {
     "cocoascript-class": "^0.1.2"
   },
   "devDependencies": {
-    "@skpm/test-runner": "^0.3.2"
+    "@skpm/fs": "^0.2.2",
+    "@skpm/test-runner": "^0.3.5"
   },
   "scripts": {
-    "test": "skpm-test"
+    "test": "skpm-test --app=latest"
   },
   "repository": {
     "type": "git",

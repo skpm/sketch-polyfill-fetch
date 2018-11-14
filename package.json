@@ -11,7 +11,7 @@
     "@skpm/test-runner": "^0.3.5"
   },
   "scripts": {
-    "test": "skpm-test --app=latest"
+    "test": "skpm-test"
   },
   "repository": {
     "type": "git",

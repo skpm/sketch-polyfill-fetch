@@ -19,19 +19,21 @@ export default () => {
   fetch("https://google.com")
     .then(response => response.text())
     .then(text => console.log(text))
-    .catch(e => console.error(e))
-}
+    .catch(e => console.error(e));
+};
 ```
 
 Without skpm:
 
 ```js
-const fetch = require('sketch-polyfill-fetch')
+const fetch = require("sketch-polyfill-fetch");
 
-var onRun = function () {
+var onRun = function() {
   fetch("https://google.com")
     .then(response => response.text())
     .then(text => console.log(text))
-    .catch(e => console.error(e))
-}
+    .catch(e => console.error(e));
+};
 ```
+
+> :warning: only https URLs are supported due a MacOS limitation

@@ -1,6 +1,6 @@
 {
   "name": "sketch-polyfill-fetch",
-  "version": "0.5.1",
+  "version": "0.5.2",
   "description": "A fetch polyfill for sketch",
   "main": "lib/index.js",
   "dependencies": {},
